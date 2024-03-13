@@ -1,0 +1,11 @@
+import profile from '../../assets/images/profile.png'
+const Header = () => {
+    return (
+        <header className='flex justify-between items-center py-4 border-b-2 max-w-6xl mx-auto'>
+            <h1 className='text-4xl text-blue-600 shadow-blue-300 font-bold'>Knowledge Cafe</h1>
+            <img src={profile} alt="" />
+        </header>
+    );
+};
+
+export default Header;
